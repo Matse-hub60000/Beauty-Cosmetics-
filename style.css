@@ -1,0 +1,88 @@
+}
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Fonts */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  line-height: 1.6;
+  background-color: #fffafc;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #ffdde4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+}
+
+.logo {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #d6285f;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #d6285f;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  background: url('https://via.placeholder.com/1200x500/ffd1dc/ffffff?text=Glow+Beauty') no-repeat center center/cover;
+  color: #fff;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background-color: #d6285f;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  text-decoration: none;
+  font-size: 1em;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #b01e4c;
+}
+
+/* Products Section */
+.products {
+  padding: 50px 30px;
+  text-align: center;
+
+.products h2
